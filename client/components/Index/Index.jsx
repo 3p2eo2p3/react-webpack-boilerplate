@@ -10,7 +10,7 @@ class IndexComponent extends Component {
 
     return (
       <section>
-        <h2>react-webpack-boilerplate-chenchen-test</h2>
+        <h2>react-webpack-boilerplate-chenchen-test1</h2>
         <ul ref="indexList" className="index-list">
           {this.props.items.map((item, index) => {
             return (<li key={index}>item {item}</li>);
