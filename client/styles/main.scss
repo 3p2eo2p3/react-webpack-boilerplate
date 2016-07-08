@@ -1,6 +1,58 @@
 $background: lightblue;
 
 body {
-  background: $background;
   font-family: "Helvetica Neue", serif;
 }
+
+// Dashboard
+
+#dashboard {
+   .new {
+        button {
+            font-size: 10px;
+            padding: 10px 0;
+        }
+    }
+    table {
+        th,td{
+            text-align: center;
+        }
+
+        td.chosen {
+            background-color: lightblue;
+        }
+        td.disable{
+            background-color: lightgray;
+            text-decoration: line-through;
+        }
+    }
+    .modal-commander {
+        .players {
+            margin-bottom: 10px;
+            tr {
+                cursor: pointer;
+            }
+        }
+        .confirm {
+            margin-top: 10px;
+        }
+        table {
+            text-align: left;
+        }
+        tr.chosen {
+            background-color: lightblue;
+        }
+    }
+}
+.pointer {
+    cursor: pointer;
+}
+
+
+//Configure
+#configure {
+    .input-group {
+        padding: 20px 0;
+    }
+}
+//History
