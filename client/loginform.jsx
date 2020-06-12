@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { connect } from 'react-redux'
 
 class LoginForm extends React.Component {
   constructor(props) {
